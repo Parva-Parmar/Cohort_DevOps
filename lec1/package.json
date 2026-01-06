@@ -3,14 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+<<<<<<< HEAD
   "type": "module",
   "scripts": {
     "dev": "node --loader ts-node/esm index.ts",
+=======
+  "scripts": {
+>>>>>>> 2e118dd (lec)
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+<<<<<<< HEAD
   "packageManager": "pnpm@10.17.0",
   "devDependencies": {
     "@types/express": "^5.0.3",
@@ -20,5 +25,10 @@
   },
   "dependencies": {
     "express": "^5.1.0"
+=======
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+>>>>>>> 2e118dd (lec)
   }
 }
