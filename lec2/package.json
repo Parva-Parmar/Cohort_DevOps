@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc -b",
-    "start": "node dist/index.js"
-  },
+  "build": "tsc -b",
+  "start": "node dist/index.js",
+  "dev:docker": "npx prisma migrate deploy && node dist/index.js"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
